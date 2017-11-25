@@ -15,7 +15,6 @@ class Technical extends Component {
                             <Seperator width="100px" margins="20px 0"/>
                             <h4>Verktygen</h4>
                             <p>Husqvarna har idag alla verktyg som behövs för att sköta en trädgård. I konceptet Social Gardening så <strong>förser Husqvarna ett grönområde med verktyg</strong>, som är anslutna till en gateway specifik för en Social Garden. Detta leder till att man kan se när verktygen används och hur de mår. Med hjälp av denna datan kommer man kunna se när verktyg behöver servas. I förlängningen leder detta till att <strong>verktyg håller längre</strong> och människorna som använder verktygen kommer att inse kvaliten på Husqvarnas produkter. Man kan även koppla denna datan till appen för att upptäcka "bragder" som utförts med hjälp av specifika verktyg.</p>
-                            <img></img>
                             <h4>Sensorerna</h4>
                             <p>Sensorerna håller koll på hur din Social Garden mår och vilka delar som behöver ses över. Om jorden är torr så kommer det <strong>automatisk skapas en uppgift i appen</strong> som sedan kan utföras av vem som helst som är en del av området.</p>
                             <h4>Appen</h4>
@@ -23,12 +22,14 @@ class Technical extends Component {
                             <div className="ImageBox">
                                 <img src={require('img/app1.jpg')}></img>
                                 <img src={require('img/app2.jpg')}></img>
-                                <img src={require('img/app4.jpg')}></img>
+                                <img src={require('img/app3.jpg')}></img>
                             </div>
                             <p>I appen kommer man även kunna skapa nya sätt att umgås genom att planera in egna tasks som är oberoende av datan. Det skulle kunna vara saker som att plantera nya plantor eller andra tasks där man kan hjälpas åt att förfina sitt område. Människor skapar på det här sättet nya sociala sammanhang att umgås i där vem som helst kan integreras i och <strong>känna en trygghet</strong> runt just sin Social Garden. I utsträckningen kommer Husqvarna bland annat kunna erbjuda rabatter till individer som bidrar med mycket "bragder" och därmed redan har varit i <strong>kontakt med Husqvarnas produkter</strong>.</p>
+                            <p>En klick-prototyp finns tillgänglig <a href="https://www.figma.com/proto/Ezrp3ZptPFDiCeK77g7Puv0H/Social-Gardening-concept?scaling=contain&node-id=4%3A7">här</a>.</p>
                         </div>
                         <div className="Right Column">
                             <img className="SGPic" src={require('img/social-gardening.png')}></img>
+                            <img className="Gif" src={require('img/app4.gif')}></img>
                         </div>
                     </div>
                 </div>

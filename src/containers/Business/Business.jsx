@@ -8,7 +8,7 @@ class Business extends Component {
 			<div className="Business">
                 <div className="BusinessInner">
                     <h3 className="BusinessHeader">Vad tjänar Husqvarna på detta?</h3>
-                    <h4 className="Italic">Cash money flow, yo.</h4>
+                    <h4 className="Italic">Odlar nya långsiktiga kundrelationer samt sprider brand awareness.</h4>
                     <Seperator width="200px" margins="20px 0"/>
                     <p>Konceptet kan anpassas för en mängd olika situationer. Nya bostadsområden som byggs. Avgränsade delar i parker. Mindre växthus. I ett typexempel kan Husqvarna sälja in en komplett lösning för ett bostadsområde. Fortsättningsvis kommer man då i kontakt med slutanvändarna som även i sin tur får upp ögonen för Husqvarnas produkter och kan lita på företaget om man vill köpa mindre produkter för personligt bruk.</p>
                     <p>Om en stad satsar på konceptet blir det en win-win situation där staden inte längre behöver betala för att hålla iordning i området då detta sköts via crowdsourcing. Husqvarna skulle då kunna tillhandahålla kritiska verktyg och sensorer gratis och höjer sin brand awareness samtidigt som man når en bred massa av individer.</p>

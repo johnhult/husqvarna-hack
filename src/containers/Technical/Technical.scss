@@ -27,8 +27,9 @@
     }
     .Right {
         display: none;
-        align-items: flex-start;
-        justify-content: center;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-between;
         padding-right: 0;
         @media screen and (min-width: 720px) {
             display: flex;
@@ -73,5 +74,10 @@
     .SGPic {
         height: auto;
         max-width: 300px;
+    }
+    
+    .Gif {
+        max-width: 400px;
+        box-shadow: 0 5px 20px rgba(black, 0.6);
     }
 }

@@ -63,7 +63,14 @@ button {
   padding: 0; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #a0e2c7; }
+
+a:hover {
+  text-decoration: underline; }
+
+a:visited {
+  color: #a0e2c7; }
 
 button {
   overflow: visible;
