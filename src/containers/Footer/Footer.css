@@ -1,0 +1,14 @@
+.Footer {
+  padding: 50px 5%;
+  text-align: center;
+  background-color: #333333;
+  color: white; }
+  .Footer span {
+    display: inline-block;
+    vertical-align: middle; }
+  .Footer img {
+    display: inline-block;
+    height: 30px;
+    vertical-align: baseline;
+    filter: invert(1) brightness(2) grayscale(100%);
+    margin: -10px; }

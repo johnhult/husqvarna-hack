@@ -1,0 +1,30 @@
+.Problem {
+  width: 100%;
+  text-align: center; }
+  .Problem .InnerProblem {
+    text-align: left;
+    min-height: 100vh;
+    padding: 50px 5%;
+    max-width: 1200px;
+    margin: 0 auto; }
+  .Problem .Double {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    flex-flow: column nowrap; }
+    @media screen and (min-width: 720px) {
+      .Problem .Double {
+        flex-flow: row nowrap; } }
+  .Problem .Column {
+    flex: 1;
+    padding: 20px; }
+  @media screen and (min-width: 720px) {
+    .Problem .Left {
+      padding-left: 0; } }
+  .Problem .Left img {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6); }
+  @media screen and (min-width: 720px) {
+    .Problem .Right {
+      padding-right: 0; } }
+  .Problem p {
+    margin-bottom: 1em; }

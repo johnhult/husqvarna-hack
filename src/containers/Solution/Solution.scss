@@ -1,0 +1,32 @@
+@import 'style-extra/variables.scss';
+
+.Solution {
+    .SolutionHero {
+        background-position: center center;
+        background-size: cover;
+        height: 400px;
+        margin-bottom: 50px;
+    }
+    
+    .SolutionHeader {
+//        margin-bottom: 0.5em;
+    }
+    
+    .SolutionTextBlock {
+        padding: 0 5%;
+        margin: 0 auto;
+    }
+    
+    .InnerTextBlock {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    p:not(:last-child) {
+        margin-bottom: 1em;
+    }
+    .TextImage {
+        margin: 50px 0;
+        box-shadow: 0 5px 20px rgba(black, 0.6);
+    }
+}

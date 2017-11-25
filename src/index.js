@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Home from 'containers/Home/Home.jsx';
+import Problem from 'containers/Problem/Problem.jsx';
+import Solution from 'containers/Solution/Solution.jsx';
+import Technical from 'containers/Technical/Technical.jsx';
+import Business from 'containers/Business/Business.jsx';
+import Footer from 'containers/Footer/Footer.jsx';
 import 'index.css';
-import {
-	BrowserRouter as Router,
-	Route,
-	Switch,
-	browserHistory
-} from 'react-router-dom';
-import Home from 'containers/Home/Home';
-
 
 
 // Here you can add global headers and footers that will stay the same over different pages
@@ -22,15 +20,16 @@ const App = () => (
 // Add other routes inside Switch to change pages here
 const Main = () => (
 	<main>
-		<Switch>
-			<Route exact path="/" component={Home} />
-		</Switch>
+        <Home />
+        <Problem />
+        <Solution />
+        <Technical />
+        <Business />
+        <Footer />
 	</main>
 );
 
 ReactDOM.render((
-	<Router history={browserHistory}>
-		<App />
-	</Router>
+    <App />
 ), document.getElementById('root')
 );

@@ -1,0 +1,5 @@
+.Seperator {
+  display: inline-block;
+  height: 1px;
+  background-color: #e6e6e6;
+  max-width: 80%; }

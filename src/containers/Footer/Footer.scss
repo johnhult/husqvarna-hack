@@ -1,0 +1,20 @@
+@import 'style-extra/variables.scss';
+
+.Footer {
+    padding: 50px 5%;
+    text-align: center;
+    background-color: lighten(black, 20%);
+    color: white;
+//    border-top: 1px solid darken(white, 10%);
+    span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    img {
+        display: inline-block;
+        height: 30px;
+        vertical-align: baseline;
+        filter: invert(1) brightness(2) grayscale(100%);
+        margin: -10px;
+    }
+}

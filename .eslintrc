@@ -1,0 +1,66 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true,
+        "amd": true
+	},
+    "parser": "babel-eslint",
+	"extends": "eslint:recommended",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"experimentalObjectRestSpread": true,
+			"jsx": true
+		},
+		"sourceType": "module"
+	},
+	"plugins": [
+		"react"
+	],
+	"rules": {
+		"indent": [
+			"error",
+			4
+		],
+		"linebreak-style": [
+			"error",
+			"unix"
+		],
+		"quotes": [
+			"error",
+			"single"
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"no-unused-vars": [
+			1
+		],
+		"react/jsx-uses-react": [
+			"error"
+		],
+		"react/jsx-uses-vars": [
+			"error"
+		],
+        "keyword-spacing": [
+            "error",
+            {
+                "overrides": {
+                    "if": {
+                        "after": false
+                    },
+                    "for": {
+                        "after": false
+                    },
+                    "while": {
+                        "after": false
+                    }
+                }
+            }
+        ],
+        "brace-style": [
+            "error",
+            "stroustrup"
+        ]
+	}
+}

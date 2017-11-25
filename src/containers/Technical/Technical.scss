@@ -1,0 +1,77 @@
+@import 'style-extra/variables.scss';
+
+.Technical {
+    width: 100%;
+    text-align: center;
+    
+    .InnerTechnical {
+        text-align: left;
+        min-height: 100vh;
+        padding: 50px 5%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .Double {
+        display: flex;
+        flex-flow: row nowrap;
+        align-content: flex-start;
+        justify-content: center;
+    }
+    .Column {
+        flex: 1;
+        padding: 20px;
+    }
+    .Left {
+        padding-left: 0;
+    }
+    .Right {
+        display: none;
+        align-items: flex-start;
+        justify-content: center;
+        padding-right: 0;
+        @media screen and (min-width: 720px) {
+            display: flex;
+        }
+    }
+    
+    .ProblemHeader {
+        margin-bottom: 0.5em;
+    }
+    
+    p {
+        margin-bottom: 1em;
+    }
+    
+    .ImageBox {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        margin: 50px 0;
+        flex-flow: row wrap;
+        @media screen and (min-width: 720px) {
+            flex-flow: row nowrap;
+        }
+        img {
+            width: 100%;
+            margin: 10px;
+            flex: 1;
+            box-shadow: 0 5px 20px rgba(black, 0.6);
+            @media screen and (min-width: 720px) {
+                width: 30px;
+                &:first-child {
+                    margin-left: 0;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    
+    .SGPic {
+        height: auto;
+        max-width: 300px;
+    }
+}

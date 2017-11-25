@@ -1,0 +1,56 @@
+.Technical {
+  width: 100%;
+  text-align: center; }
+  .Technical .InnerTechnical {
+    text-align: left;
+    min-height: 100vh;
+    padding: 50px 5%;
+    max-width: 1200px;
+    margin: 0 auto; }
+  .Technical .Double {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: flex-start;
+    justify-content: center; }
+  .Technical .Column {
+    flex: 1;
+    padding: 20px; }
+  .Technical .Left {
+    padding-left: 0; }
+  .Technical .Right {
+    display: none;
+    align-items: flex-start;
+    justify-content: center;
+    padding-right: 0; }
+    @media screen and (min-width: 720px) {
+      .Technical .Right {
+        display: flex; } }
+  .Technical .ProblemHeader {
+    margin-bottom: 0.5em; }
+  .Technical p {
+    margin-bottom: 1em; }
+  .Technical .ImageBox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 50px 0;
+    flex-flow: row wrap; }
+    @media screen and (min-width: 720px) {
+      .Technical .ImageBox {
+        flex-flow: row nowrap; } }
+    .Technical .ImageBox img {
+      width: 100%;
+      margin: 10px;
+      flex: 1;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6); }
+      @media screen and (min-width: 720px) {
+        .Technical .ImageBox img {
+          width: 30px; }
+          .Technical .ImageBox img:first-child {
+            margin-left: 0; }
+          .Technical .ImageBox img:last-child {
+            margin-right: 0; } }
+  .Technical .SGPic {
+    height: auto;
+    max-width: 300px; }

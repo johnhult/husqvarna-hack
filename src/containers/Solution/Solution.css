@@ -1,0 +1,21 @@
+.Solution .SolutionHero {
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  margin-bottom: 50px; }
+
+.Solution .SolutionTextBlock {
+  padding: 0 5%;
+  margin: 0 auto; }
+
+.Solution .InnerTextBlock {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left; }
+
+.Solution p:not(:last-child) {
+  margin-bottom: 1em; }
+
+.Solution .TextImage {
+  margin: 50px 0;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6); }

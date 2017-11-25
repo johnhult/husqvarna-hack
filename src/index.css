@@ -7,15 +7,15 @@ html {
   width: 100vw;
   height: 100vh;
   text-align: center;
-  color: #fbf2d2;
-  background-color: #8a5d65; }
+  color: #333333;
+  background-color: white; }
 
 body {
   margin: 0;
   padding: 0;
   width: 100vw;
   height: 100vh;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem;
   font-weight: 100;
   line-height: 1.72;
@@ -34,8 +34,7 @@ ol,
 ul {
   margin: 0;
   padding: 0;
-  font-weight: 100;
-  line-height: 1.7; }
+  font-weight: 100; }
 
 p {
   font-size: 1.6rem; }
@@ -51,6 +50,7 @@ h1,
 h2,
 h3,
 h4 {
+  line-height: 1.4;
   font-size: inherit; }
 
 strong {
@@ -98,22 +98,30 @@ h1 {
   font-size: 6rem; }
   @media screen and (min-width: 1080px) {
     h1 {
-      font-size: 14rem; } }
+      font-size: 8rem;
+      font-weight: 900; } }
 
 h2 {
-  font-size: 4rem; }
+  font-size: 3rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Playfair Display', serif; }
   @media screen and (min-width: 1080px) {
     h2 {
-      font-size: 8rem; } }
+      font-size: 4rem; } }
 
 h3 {
-  font-size: 2rem; }
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif; }
   @media screen and (min-width: 1080px) {
     h3 {
-      font-size: 2.2rem; } }
+      font-size: 4rem; } }
 
 h4 {
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  font-family: 'Playfair Display', serif; }
   @media screen and (min-width: 1080px) {
     h4 {
       font-size: 2rem; } }
+
+.Italic {
+  font-style: italic; }

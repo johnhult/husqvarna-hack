@@ -1,0 +1,45 @@
+@import 'style-extra/variables.scss';
+
+.Business {
+    padding: 50px 5%;
+    background-color: lighten($accentColor, 20%);
+    .BusinessInner {
+        margin: 0 auto;
+        max-width: 1200px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    .ImgGrid {
+        width: 1200px;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 0 0 50px;
+        grid-gap: 40px;
+        img {
+            box-shadow: 0 5px 20px rgba(black, 0.6);
+        }
+    }
+    .TextImage1 {
+        grid-area: 1 / 1 / 1 / 1;
+    }
+    .TextImage2 {
+        align-self: end;
+        grid-area: 1 / 2 / 2 / 2;
+    }
+    .TextImage3 {
+        justify-self: end;
+        grid-area: 2 / 1 / 2 / 1;
+    }
+    .TextImage4 {
+        grid-area: 2 / 2 / 2 / 2;
+    }
+    h3, h4, p {
+        max-width: 600px;
+    }
+    p {
+        margin-bottom: 2em; 
+    }
+}

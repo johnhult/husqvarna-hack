@@ -1,0 +1,25 @@
+.Home {
+  min-height: 100vh;
+  text-align: center;
+  padding: 50px 5%;
+  max-width: 1200px;
+  margin: 0 auto; }
+  .Home .Header {
+    display: inline-block;
+    position: relative;
+    z-index: 1; }
+    .Home .Header:after {
+      content: '';
+      background-color: #a0e2c7;
+      position: absolute;
+      z-index: -1;
+      bottom: 0;
+      left: -3%;
+      width: 80%;
+      height: 40%; }
+  .Home .Subheader {
+    display: inline-block;
+    max-width: 900px; }
+  .Home .IntroPic {
+    width: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6); }

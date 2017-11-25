@@ -1,0 +1,33 @@
+.Business {
+  padding: 50px 5%;
+  background-color: #eefaf5; }
+  .Business .BusinessInner {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center; }
+  .Business .ImgGrid {
+    width: 1200px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 0 50px;
+    grid-gap: 40px; }
+    .Business .ImgGrid img {
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6); }
+  .Business .TextImage1 {
+    grid-area: 1 / 1 / 1 / 1; }
+  .Business .TextImage2 {
+    align-self: end;
+    grid-area: 1 / 2 / 2 / 2; }
+  .Business .TextImage3 {
+    justify-self: end;
+    grid-area: 2 / 1 / 2 / 1; }
+  .Business .TextImage4 {
+    grid-area: 2 / 2 / 2 / 2; }
+  .Business h3, .Business h4, .Business p {
+    max-width: 600px; }
+  .Business p {
+    margin-bottom: 2em; }
